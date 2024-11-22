@@ -56,8 +56,11 @@ nav li{
     background-color: #002D69;
     color: #FFFFFF ;
     text-align: center;
-    width: 100%;
-    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .txt-content{
     padding: 20px;
@@ -67,9 +70,13 @@ nav li{
     margin-top: 70px;
     text-transform:uppercase;
 }
+.img-handcraft {
+    width: 50%;
+    
+}
+
 .img-handcraft img{
     width: 100%;
-    
 }
 .about-sevice button{
     color: #002D69;
