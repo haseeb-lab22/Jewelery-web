@@ -18,7 +18,7 @@ nav li{
 }
 
 .jewelery-type h2{
-    margin-left: 8%;
+    margin-left: 7%;
     margin-top: 10px;
     margin-bottom: 30px;
     font-weight: bold;
@@ -44,6 +44,7 @@ nav li{
 
 .images p{
     margin-top: 10px;
+    color: #002D69;
 }
 
 .about-sevice{
@@ -51,6 +52,7 @@ nav li{
     justify-content: center;
     /* margin-left: 112px; */
     width: 100%;
+    margin-top: 10px;
 }
 .txt{
     background-color: #002D69;
@@ -85,4 +87,97 @@ nav li{
     border-radius: 4px;
     width: 140px;
     margin-top: 10px;
+}
+.jewelery-gallery{
+    width: 100%;
+    margin-top: 60px;
+}
+.jewelery-gallery h2{
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #002D69;
+}
+.gallery-img{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.g-img{
+    width: 100%;
+}
+.gallery-img img{
+    width: 90%;
+    height: 300px;
+}
+
+.btn-container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+.cstm-reviews h2{
+    margin-left: 7%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #002D69;
+}
+
+.reviews{
+    width: 90%;
+    margin-left: 5%;
+}
+.reviews .card {
+    width: 30%;
+    margin-top: 10px;
+
+}
+.services-container h2{
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #002D69;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+}
+.service-img{
+    width: 100%;
+}
+.service-img img{
+    width: 90%;
+    height: 300px;
+}
+.service-img p{
+    margin-top: 10px;
+    color: #002D69;
+    font-size: large;
+}
+/* .service-butn{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 50px;
+    border: #002D69 1px solid;
+    border-radius: 4px; */
+}
+.service-butn button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
 }
