@@ -7,6 +7,11 @@ nav li{
 .nav-item a:hover{
     background-color: #002D69;
     color:white;
+    border: 2px solid #002D69;
+    border-radius: 4px;
+}
+.nav-link a:hover{
+    color: #FFFFFF;
 }
 
 .active:hover{
